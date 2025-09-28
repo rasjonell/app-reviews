@@ -1,4 +1,4 @@
-import type { App, AppReviews } from '../types'
+import type { App, AppReviews } from '@/types'
 
 const BASE_URL = 'http://localhost:8080'
 

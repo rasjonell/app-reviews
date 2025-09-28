@@ -1,5 +1,5 @@
 import { useInfiniteQuery } from '@tanstack/react-query'
-import { fetchReviews } from '../lib/api'
+import { fetchReviews } from '@/lib/api'
 
 export function useReviewsInfiniteQuery(
   appId: string,

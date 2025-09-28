@@ -5,6 +5,8 @@ that displays those reviews with date filtering and pagination.
 
 ---
 
+![Recording](./recording.mp4)
+
 ## How to Run
 
 ### Clone the Repository
@@ -26,19 +28,14 @@ make run
 > - Backend API on [http://localhost:8080](http://localhost:8080)
 > - Frontend on [http://localhost:3000](http://localhost:3000)
 
-### Run Separately (Optional)
+---
 
-- **Backend Only:**
+## Architecture
 
-```bash
-make backend
-```
+You can find server and client architecture overview in each directory's README:
 
-- **Frontend Only:**
-
-```bash
-make frontend
-```
+- Server [README.md](./server/README.md)
+- Client [README.md](./client/README.md)
 
 ---
 

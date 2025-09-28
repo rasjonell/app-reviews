@@ -1,4 +1,3 @@
-// repo/app_repo.go
 package repo
 
 import (

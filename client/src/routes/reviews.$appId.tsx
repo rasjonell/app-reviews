@@ -1,8 +1,8 @@
 import { createFileRoute, useParams } from '@tanstack/react-router'
 import { useMemo, useState } from 'react'
-import { useReviewsInfiniteQuery } from '../hooks/useReviews'
-import { useRefreshQuery } from '../hooks/useRefresh'
-import ReviewCard from '../components/ReviewCard'
+import { useReviewsInfiniteQuery } from '@/hooks/useReviews'
+import { useRefreshQuery } from '@/hooks/useRefresh'
+import ReviewCard from '@/components/ReviewCard'
 import { Link } from '@tanstack/react-router'
 import ReviewsSkeleton from '@/components/ReviewsSkeleton'
 

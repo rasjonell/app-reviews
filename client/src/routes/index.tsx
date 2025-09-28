@@ -1,8 +1,8 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { useState } from 'react'
-import { useAppsQuery } from '../hooks/useApps'
-import AppList from '../components/AppList'
-import AddAppModal from '../components/AddAppModal'
+import { useAppsQuery } from '@/hooks/useApps'
+import AppList from '@/components/AppList'
+import AddAppModal from '@/components/AddAppModal'
 import HomeSkeleton from '@/components/HomeSkeleton'
 
 export const Route = createFileRoute('/')({
