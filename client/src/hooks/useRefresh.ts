@@ -1,5 +1,5 @@
 import { useQuery, useQueryClient } from '@tanstack/react-query'
-import { pollReviews } from '../lib/api'
+import { pollReviews } from '@/lib/api'
 
 export function useRefreshQuery(appId: string) {
   const qc = useQueryClient()

@@ -1,6 +1,6 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
-import { addNewApp, fetchApps } from '../lib/api'
-import type { App } from '../types'
+import { addNewApp, fetchApps } from '@/lib/api'
+import type { App } from '@/types'
 
 export function useAppsQuery() {
   return useQuery<App[], Error>({
