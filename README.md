@@ -14,10 +14,11 @@ git clone git@github.com:rasjonell/app-reviews.git
 cd app-reviews
 ```
 
-### Install Dependencies & Run Both Services
+### Install Dependencies, Run Tests & Run Both Services
 
 ```bash
 make install
+make test
 make run
 ```
 

@@ -1,10 +1,17 @@
-.PHONY: install backend frontend run clean
+.PHONY: install test backend frontend run clean
 
 install:
 	@echo "Installing Server dependencies..."
 	cd server && go mod tidy
 	@echo "Installing Client dependencies..."
 	cd client && npm install
+
+test:
+	@echo "Running Tests..."
+	cd server && go test ./internal/service && \
+		go test ./internal/repo && \
+		go test ./internal/http/handlers && \
+		go test ./internal/http/middleware
 
 backend:
 	@echo "Starting Go backend server..."
